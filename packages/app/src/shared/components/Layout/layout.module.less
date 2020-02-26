@@ -1,0 +1,36 @@
+@import '../../../styles/var.less';
+
+.mainLayout {
+    min-height: 100vh;
+}
+
+.logo { 
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+    > img {
+        width: 30px;
+        margin: 0 15px;
+    }
+    > span {
+        font-size: 1.1rem;
+        line-height: 1.1;
+        color: @menu-dark-color;
+    }
+}
+
+.content {
+    min-height: 280px;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 64px;
+    padding: 0;
+    background: @layout-header-background;
+    box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+    z-index: 9;
+}

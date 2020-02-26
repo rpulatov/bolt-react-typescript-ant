@@ -1,0 +1,12 @@
+{
+  "name": "@temp/types",
+  "version": "0.1.0",
+  "description": "temp project Types",
+  "author": "Pulatov Ruslan <ufan4ik@mail.ru>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+  },
+  "main": "dist/types.cjs.js",
+  "module": "dist/types.esm.js"
+}

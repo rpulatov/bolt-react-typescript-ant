@@ -1,0 +1,12 @@
+{
+  "name": "@temp/ui",
+  "version": "0.1.0",
+  "description": "temp project ui",
+  "author": "Pulatov Ruslan <ufan4ik@mail.ru>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+  },
+  "main": "dist/ui.cjs.js",
+  "module": "dist/ui.esm.js"
+}
